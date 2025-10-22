@@ -1,0 +1,15 @@
+ObserverPatternProject/
+│
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── ObserverPattern.java  // Main class to run the program
+│   │   │   ├── EventManager.java     // Subject interface
+│   │   │   ├── EventListener.java    // Observer interface
+│   │   │   ├── Editor.java           // ConcreteSubject
+│   │   │   ├── EmailAlertsListener.java  // ConcreteObserver 1
+│   │   │   └── LoggingListener.java  // ConcreteObserver 2
+│   └── test/  (optional for future unit tests)
+│
+├── build.gradle  (optional build file for Gradle, if using a build tool)
+├── README.md     (optional documentation file)
